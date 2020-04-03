@@ -1,0 +1,88 @@
+/********************************************************************
+I declare that my assignment is wholly my own work in accordance with Seneca
+Academic Policy. No part of this assignment has been copied manually or
+electronically from any other source (including web sites) except for the
+information supplied by the WEB222 instructors and / or made available in this
+assignment for my use.
+I also declare that no part of this assignment has been distributed to other
+students.
+Name: Wonbok Lee
+Dated: 2020-03-19
+********************************************************************/
+
+body{
+	margin: auto;
+	width: 80%;	
+	background-color: #ffe9ec;
+    background-repeat: no-repeat;
+	background-position:  right;
+
+}
+h1 {
+
+    height: 200px;
+    background: red; 
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); 
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); 
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); 
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); 
+    text-align: center;
+    font-size: 500%;
+    color: #FFFFFF
+}
+
+img {
+
+border-radius : 30px;
+width :300px;
+height:300px;
+}
+td {
+    background-color: yellow;
+	border-width: 2px; border-style: solid;
+	text-align: center;
+	}
+
+.flash {
+        animation-name: flash;
+         animation-duration: 0.2s;
+         animation-timing-function: linear;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;
+         animation-play-state: running;
+         font-size: 400%;
+         text-decoration: underline;
+     }
+     
+     @keyframes flash {
+         from {color: red;}
+         to {color: black;}
+}
+
+#paragraph2{
+	font-style: normal;
+    font-size: 20pt;
+}
+
+#section1{
+
+	color: #2f4f4f;
+}
+
+thead{
+	font-style: normal;
+}
+tfoot{
+	font-style:  normal;
+}
+
+
+ul{
+	list-style: square;
+}
+ol{
+	list-style: circle; }
+
+footer {
+	text-align: center;
+}
