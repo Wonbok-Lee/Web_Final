@@ -34,8 +34,8 @@ h1 {
 img {
 
 border-radius : 30px;
-width :300px;
-height:300px;
+max-width :100%;
+height:auto;
 }
 td {
     background-color: yellow;
@@ -85,16 +85,4 @@ ol{
 
 footer {
 	text-align: center;
-}
-
-/* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
-}
-
-/* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
 }
